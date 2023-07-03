@@ -35,7 +35,7 @@ body {
   height: 100%;
   width: 100%;
   background: black;
-  opacity: 50%;
+  opacity: 60%;
   position: absolute;
   top: 0;
 }
@@ -57,4 +57,10 @@ body {
 .nav-masthead .active {
   color: #fff;
   border-bottom-color: #fff;
+}
+
+.scrolling {
+  background-color: black;
+  opacity: 70%;
+  transition: all 0.7s;
 }
